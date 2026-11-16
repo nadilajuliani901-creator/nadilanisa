@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabel Perkalian 8</title>
+</head>
+<body>
+  <h1>Tabel Perkalian 8</h1>
+
+  <ul>
+    <li>NIM: 262302002</li>
+    <li>Nama: Nadila Nisa Juliani</li>
+  </ul>
+
+  <div id="hasil"></div>
+
+  <script>
+    // Struktur perulangan (for) untuk menampilkan tabel perkalian 8
+    var angka = 8;
+    var output = "";
+
+    for (var i = 1; i <= 10; i++) {
+      output += angka + " x " + i + " = " + (angka * i) + "<br>";
+    }
+
+    document.getElementById("hasil").innerHTML = output;
+  </script>
+</body>
+</html>
